@@ -1,0 +1,118 @@
+/*seleccion de todo lo que se encuentra en el html*/
+html {
+  scroll-behavior: smooth;
+}
+/*cabecera*/
+header {
+  height: 50px;
+  background-color: #fadcab;
+}
+/*da tamaño tipo de letra y estilo a los h1,h2,h3,p y lista del nav*/
+h1,
+#lista-nav li,
+h2,
+h3,
+p {
+  margin-left: 20px;
+  margin-top: 0px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: sans-serif;
+}
+/*color y ancho y configuacin del nav  */
+nav {
+  background-color: #fadcab;
+  height: 50px;
+}
+#lista-nav {
+  margin-top: 0px;
+  margin-left: 400px;
+}
+#lista-nav a {
+  margin-left: 100px;
+  font-size: 20px;
+  padding: 15px;
+}
+#lista-nav a:hover {
+  background-color: #bb8b65;
+}
+/*tamño imagen pricipal*/
+#imagenPrincipal {
+  width: 100%;
+  height: 500px;
+}
+/* configuracion del indice*/
+aside {
+  background-color: wheat;
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+}
+h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+#lista-aside {
+  list-style-position: outside;
+  text-decoration: none;
+  list-style-type: square;
+  font-size: 20px;
+  margin-top: 5px;
+}
+#lista-aside li a:visited,
+a:link,
+#lista-nav a:visited,
+a:link {
+  text-decoration: none;
+  color: black;
+}
+#lista-aside li a:hover {
+  color: peru;
+}
+#lista-aside li {
+  margin-top: 10px;
+}
+
+/* configuracion de la seccion*/
+section {
+  float: right;
+  height: auto;
+  width: 1125px;
+}
+article {
+  background-color: whitesmoke;
+  margin: 10px;
+}
+/* configuracion del flooter*/
+footer {
+  background-color: #fadcab;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+/* tamaño de las imagenes de los articulos*/
+#imgArticulo1,
+#imgArticulo2,
+#imgArticulo3,
+#imgArticulo3-1 {
+  width: 400px;
+  height: 400px;
+  margin-left: 300px;
+}
+/* configuracion de los parrafos*/
+p {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+}
