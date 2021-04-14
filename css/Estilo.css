@@ -1,10 +1,10 @@
 h1 {
   color: #240504;
 }
-
-.bg-dark {
-  background-color: #240504 !important;
+.btn-inicio {
+  background-color: #240504;
+  border-radius: 60px;
 }
-.navbar-light .navbar-nav .nav-link {
-  color: #240504;
+.border {
+  border-radius: 60px;
 }
